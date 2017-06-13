@@ -1,4 +1,73 @@
+body {
+	 background-image: url("../images/restaurant.png")
+
+}
+
 img {
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 100px;
     };
+
+
+.container {
+	margin-left : 100px;
+
+}
+
+div.crystals {
+	width: 30%;
+	background-color: orange;
+	height: 70px;
+	margin-bottom: 15px;
+	padding-top: .5px;
+	margin-top: : 15px;
+}
+
+ div.instructions{
+   background-color: #ffffcc;
+  /* margin-right: 50%;*/
+   height: 400px;
+   width: 50%;
+   margin-bottom: 15px;
+   padding-top: 10px;
+   color:green;
+
+
+ }
+
+
+
+ .numberToMatch  {
+ 	width: 20%;
+ 	float: left;
+ 	background-color: #66ff99;
+ 	height: 100px;
+ 	margin-bottom: 20px;
+
+ }
+
+
+ .winsAndLosses{
+ 	background-color: #66ffff;
+ 	float: left; 
+ 	margin-left: 20px;
+ 	color: black;
+ 	padding-right: 10px;
+ 	padding-left:  10px;
+ }
+
+ .gems {
+ 	clear:both;
+
+ }
+
+
+
+ .userTotal {
+
+ 	background-color: #009999;
+
+ 	width: 25%;
+
+ 	height: 50px;
+ }
